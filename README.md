@@ -3,7 +3,7 @@
 A solution to the [Bento Grid challenge](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj) on Frontend Mentor.
 
 ## Live Demo
-[View Live](https://justaykhalid.github.io/bento-grid-frontend-mentor/)
+[View Live](https://justaykhalid.github.io/-Bento-Grid/)
 
 ## Built With
 - HTML5
