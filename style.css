@@ -1,0 +1,203 @@
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+}
+.container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows:0.4fr 0.4fr 0.8fr 0.7fr;
+   grid-template-areas:
+   "box-one  box-two  box-two  box-three"
+   "box-one  box-two  box-two  box-three"
+   "box-six  box-four box-five box-three "
+   "box-six box-seven box-eight box-eight"
+   
+   ;
+   gap:16px;
+   max-width:1000px;
+   margin: 20px auto;
+   padding: 0 24px;
+   
+}
+.box{
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+.social-box{
+    background-color: hsl(256, 67%, 59%);
+    grid-area: box-two;
+    color: #ffffff;
+    font-weight: 30o;
+    text-align: center;
+
+}
+.social-txt{
+    font-size: 48px;
+    font-weight: 100;
+}
+.o-txt{
+     font-size: 25px;
+}
+.propt-img{
+    height:200px;
+}
+.img-star{
+    width:200px;
+    display: block;
+    margin: auto auto;
+}
+.ten-txt{
+    color: hsl(39, 100%, 71%);
+}
+.Manage-box{
+    background-color: #ffffff;
+    
+    grid-area: box-four;
+}
+.Maintain-box {
+    background-color:#f0a500;
+    padding-bottom:0px;
+    grid-area: box-five;
+}
+.schedule-box {
+    background-color:#d9ccff ;
+    grid-area: box-three;
+   
+}
+.Optimize{
+    font-size:20px;
+}
+.img-container{
+padding:20px 0px 20px 60px;
+}
+.img-scheadule{
+   height: 300px; 
+}
+.Grow-box{
+    background-color: hsl(256, 67%, 59%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    grid-area: box-eight;
+}
+.faster-box{
+      background-color: #ffffff;
+      grid-area: box-seven;
+}
+.Create-box{
+    background-color:hsl(31, 66%, 93%);
+    grid-area:box-one;
+}
+.create-img{
+    width:200px;
+   
+}
+.q{
+    color: hsl(256, 67%, 59%);
+}
+.write-box{
+    background-color: #f0a500;
+    
+    grid-area: box-six;
+}
+.write-box-txt{
+    text-align: left;
+
+}
+.multiple-img-container{
+    padding-left:50px;
+}
+.multiple-img{
+     width:200px;
+}
+.consistent{
+    display: inline;
+     height:150px;
+      margin:0;   
+}
+.growth-img{
+    width: 200px;
+}
+.followers{
+    display:inline;
+    width: 150px;
+}
+.Grow-txt{
+    display: inline;
+}
+ .attribution{
+            margin-bottom:40px;
+        }
+@media screen and (max-width: 480px){
+    .container{
+        display: grid;
+        grid-template-columns: 0.9fr;
+        grid-template-rows: 300px 170px 250px 480px 370px 220px 200px 290px;
+        grid-template-areas:
+            "box-two"
+            "box-four"
+            "box-five" 
+             "box-three"
+             "box-eight"
+             "box-seven"
+              "box-one"
+              "box-six"
+            
+            ;
+             }
+            .social-box{
+
+            }
+            .social-txt{
+                font-size: 40px;
+                font-weight: 100;
+             }
+        .Manage-txt{
+            font-size: 25px;
+        }
+        .multiple-img-container{
+            margin-left:70px;
+        }
+        .Maintain-txt{
+            font-size: 30px;
+        }
+        .schedule-box{
+            text-align: center;
+        }
+        .schedule-txt{
+            font-size: 25px;
+        }
+        .Optimize{
+            font-size: 25px;
+        }
+        .img-scheadule{
+             height: 250px; 
+        }
+        .Grow-box{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+        .Grow-txt{
+             font-size:35px;
+             text-align: center;
+        }
+        .followers{
+            width:200px;
+        }
+        .create-txt{
+            font-size:25px;
+        }
+        .write-box-txt{
+            font-size:28px;
+        }
+        .propt-img{
+             height:150px;
+        }
+        .o-txt{
+            font-size:20px;
+        }
+       
+} 
